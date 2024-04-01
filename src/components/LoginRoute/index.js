@@ -4,7 +4,7 @@ import {Component} from "react"
 
 class LoginRoute extends Component{
 
-    login=(event)=>{
+    login=async(event)=>{
         event.preventDefault()
         console.log("login")
     }
