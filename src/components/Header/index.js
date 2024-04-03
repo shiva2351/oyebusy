@@ -2,6 +2,7 @@ import {Component} from "react"
 import { IoIosSearch } from "react-icons/io";
 
 import "./index.css"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 class Header extends Component{
     render(){
@@ -16,17 +17,24 @@ class Header extends Component{
                     </li>
                     <li>
                     <ul className="header-ul-2">
+                        <Link to="/">
                         <li>
                             Home
-                        </li>
+                        </li></Link>                        
+                        <Link to="/home/blog/fashion">
                         <li>
                             Fashion
                         </li>
+                        </Link>
+                        <Link to="/home/blog/technology">
                         <li>
                             Technology
-                        </li>
-                        <li>Life style</li>
-                        <li>Environment</li>
+                        </li></Link>                        
+                    <Link to="/home/blog/life-style">
+
+                        <li>Life style</li> </Link>                       
+                        <Link to="/home/blog/environment">
+                        <li>Environment</li></Link>
                     </ul>
                     </li>
                     <li>

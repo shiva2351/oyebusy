@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min"
 import "./index.css"
 
 const Footer =()=>{
@@ -9,17 +10,18 @@ const Footer =()=>{
           <div className="footer-card">
                     <div>
                     <ul className="footer-ul">
+                        <Link to="/">
                         <li>
                             Home
-                        </li>
+                        </li></Link><Link to="/home/blog/fashion">
                         <li>
                             Fashion
-                        </li>
+                        </li></Link><Link to="/home/blog/technology">
                         <li>
                             Technology
-                        </li>
-                        <li>Life style</li>
-                        <li>Environment</li>
+                        </li></Link><Link to="/home/blog/life-style">
+                        <li>Life style</li></Link><Link to="/home/blog/environment">
+                        <li>Environment</li></Link>
                     </ul>
                     </div>
                     <div className="so-logo">
