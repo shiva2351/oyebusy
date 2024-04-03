@@ -5,7 +5,7 @@ const Footer =()=>{
     console.log("Footer")
     return <div className="Footer">
           <div>
-            <img alt="logo" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711955022/logo.png_kengaa.png"/>
+          <img alt="logo" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711875446/Group_7146_k9oli0.png" />
           </div>
           <div className="footer-card">
                     <div>

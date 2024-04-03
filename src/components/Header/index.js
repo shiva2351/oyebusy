@@ -5,8 +5,9 @@ import "./index.css"
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 class Header extends Component{
-    render(){
-        return <nav>
+    
+    render(){console.log("header")
+        return <nav className="header">
             <img alt="logo" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711875446/Group_7146_k9oli0.png" />
                 <ul className="header-ul">
                     <li className="so-logo">
@@ -16,6 +17,7 @@ class Header extends Component{
  <img alt="link" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941891/svg_1_lytlck.png"/>
                     </li>
                     <li>
+                        
                     <ul className="header-ul-2">
                         <Link to="/">
                         <li>
@@ -43,6 +45,7 @@ class Header extends Component{
                       </div>
                     </li>
                 </ul>
+                
         </nav>
     }
 }

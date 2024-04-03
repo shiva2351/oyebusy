@@ -1,9 +1,33 @@
 .image-fashion{
-    background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1712053039/a_gzsx22.png");
+    background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1712053193/a_2_npgywf.png");
+    background-size:cover;
+    height: 400px;
+    flex-grow:2;
+    border:2px solid blue;
+    background-position: center;
+    padding:0px;
 }
 .image-tech{
     background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1712053185/a_1_mzqi0s.png");
+    background-size:cover;
+    height: 200px;
+    background-position: center;
+    border:2px solid blue;
+
 }
-.image-style{
-    background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1712053193/a_2_npgywf.png");
+.image-style{    
+    background-position: center;
+    background-image: url("https://res.cloudinary.com/delrn2vxa/image/upload/v1712053039/a_gzsx22.png");
+    background-size:cover;
+    height:200px;
+    border:2px solid blue;
+
+}
+.home-cards{
+    display:flex;
+    border:2px solid blue;
+}
+
+.home-card2{
+    flex-grow:1;
 }
