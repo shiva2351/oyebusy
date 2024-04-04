@@ -31,7 +31,7 @@ const Footer =()=>{
  <img alt="link" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941891/svg_1_lytlck.png"/>
                     </div>
           <div>
-            <p>copyright c 2023 Magazine - Powered by Rishi Theme</p>
+            <p>copyright c 2023 Magazine - Powered by shiva Theme</p>
           </div></div>
           
     </div>

@@ -5,9 +5,15 @@ import 'reactjs-popup/dist/index.css'
 import "./index.css"
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
+const overlayStyles={ 
+
+}
+
 const ReactPopUp = () => (
     <div className="popup-container">
-      <Popup
+      <Popup className='pop'
+     
+      overlayStyle={overlayStyles}
         modal
         trigger={
           <button type="button" className="trigger-button">
@@ -16,8 +22,15 @@ const ReactPopUp = () => (
         }
       >
         {close => (
-          <>
+          
             <div>
+              <button
+              type="button"
+              className="trigger-button"
+              onClick={() => close()}
+            >
+              X
+            </button>
             <ul className="react-ul">
                         <Link to="/">
                         <li>
@@ -39,14 +52,8 @@ const ReactPopUp = () => (
                         <li>Environment</li></Link>
                     </ul>
             </div>
-            <button
-              type="button"
-              className="trigger-button"
-              onClick={() => close()}
-            >
-              Close
-            </button>
-          </>
+            
+          
         )}
       </Popup>
     </div>
