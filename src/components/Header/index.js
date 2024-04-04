@@ -8,8 +8,9 @@ class Header extends Component{
     
     render(){console.log("header")
         return <nav className="header">
+            <div>
             <img alt="logo" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711875446/Group_7146_k9oli0.png" />
-                <ul className="header-ul">
+            </div><ul className="header-ul">
                     <li className="so-logo">
  <img alt="fb" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941983/Vector_1_vzwteq.png"/>
  <img alt="insta" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941952/svg_ygixtz.png"/>
