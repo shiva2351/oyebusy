@@ -1,6 +1,5 @@
 
 import { Link } from "react-router-dom/cjs/react-router-dom.min"
-import Footer from "../Footer"
 import Header from "../Header"
 
 import "./index.css"
@@ -28,7 +27,6 @@ const Home =()=>{
 </div></Link>
             </div>
         </div>
-        <Footer/>
     </div>
 }
 

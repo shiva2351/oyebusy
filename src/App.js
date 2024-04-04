@@ -9,10 +9,12 @@ import Fashion from "./components/Fashion";
 import TechnologyRoute from "./components/TechnologyRoute";
 import LifeStyleRoute from "./components/LifeStyleRoute";
 import EnvironmentRoute from "./components/EnvironmentRoute";
+import Footer from "./components/Footer";
 
 const App=() =>{
 console.log("app")  
-return <div className="App">
+return <>
+<div className="App">
   <Switch>
     <Route exact path="/" component={Home}/>
     <Route exact path="/home/blog/fashion" component={Fashion}/>
@@ -25,7 +27,7 @@ return <div className="App">
     <Redirect to="/notfound" />
   </Switch>
      
-    </div>
+    </div><Footer/></>
 }
 
 export default App;

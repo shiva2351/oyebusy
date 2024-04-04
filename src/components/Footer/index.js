@@ -4,9 +4,9 @@ import "./index.css"
 const Footer =()=>{
     console.log("Footer")
     return <div className="Footer">
-          <div>
+          
           <img alt="logo" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711875446/Group_7146_k9oli0.png" />
-          </div>
+          
           <div className="footer-card">
                     <div>
                     <ul className="footer-ul">
@@ -30,8 +30,9 @@ const Footer =()=>{
  <img alt="x" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941918/svg_2_vczqem.png"/>
  <img alt="link" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1711941891/svg_1_lytlck.png"/>
                     </div>
-          <div>
-            <p>copyright c 2023 Magazine - Powered by shiva Theme</p>
+          <div className="foot-bottom">
+            <hr className="foot-hr"/>
+            <p className="para-copy">copyright c 2023 Magazine - Powered by shiva Theme</p>
           </div></div>
           
     </div>
